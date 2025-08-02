@@ -8,5 +8,5 @@ public partial class Element : Resource
 	public string Name { get; set; }
 	
 	[Export]
-	public Godot.Collections.Dictionary<Element, int> Interactions { get; set; }
+	public Godot.Collections.Dictionary<Element, Interaction> Interactions { get; set; }
 }

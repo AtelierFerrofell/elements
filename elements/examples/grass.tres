@@ -7,6 +7,6 @@
 script = ExtResource("1_2dxj0")
 Name = "Grass"
 Interactions = Dictionary[Object, int]({
-ExtResource("1_fi612"): 100
+ExtResource("1_fi612"): null
 })
 metadata/_custom_type_script = "uid://cti6rdk71imnh"
