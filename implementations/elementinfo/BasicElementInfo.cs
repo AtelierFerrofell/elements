@@ -2,7 +2,7 @@ using Godot;
 using System;
 
 [GlobalClass]
-public partial class BasicElementInformation : ElementInformation
+public partial class BasicElementInfo : ElementInfo
 {
     [Export]
     public string Name { get; set; }

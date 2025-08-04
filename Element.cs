@@ -5,7 +5,7 @@ using System;
 public partial class Element : Resource
 {
 	[Export]
-	public ElementInformation Information { get; set; }
+	public ElementInfo Info { get; set; }
 	
 	[Export]
 	public Godot.Collections.Dictionary<Element, ElementInteraction> Interactions { get; set; }
